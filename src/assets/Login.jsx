@@ -13,7 +13,7 @@ export default function Login() {
         event.preventDefault()
         // if(username=="admin"&&password=="admin"){
         login(username);
-        navigate("Login-Zustand/mainpage");
+        navigate("/Login-Zustand/mainpage");
         setinvalid("");
         // }
         // else{
