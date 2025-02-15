@@ -4,12 +4,12 @@ import Mainpage from "./assets/mainpage";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
+    <>      <Routes>
         <Route path="/Login-Zustand/" element={<Login />} /> 
         <Route path="/Login-Zustand/mainpage" element={<Mainpage />} />
       </Routes>
-    </BrowserRouter>
+      </>
+
   );
 }
 

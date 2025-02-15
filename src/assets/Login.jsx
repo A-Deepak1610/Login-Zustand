@@ -12,7 +12,7 @@ export default function Login() {
     function handlesumbit(event){
         event.preventDefault()
         login(username);
-        navigate("/Login-Zustand/mainpage");
+        navigate('/Login-Zustand/mainpage');
         setinvalid("");
     }
   return (
