@@ -11,18 +11,10 @@ export default function Login() {
     const {user,login}=UserDetails();
     function handlesumbit(event){
         event.preventDefault()
-        // if(username=="admin"&&password=="admin"){
         login(username);
         navigate("/Login-Zustand/mainpage");
         setinvalid("");
-        // }
-        // else{
-        //     setinvalid("Invalid username or password");
-        // }
     }
-    // useEffect(()=>{
-    //     alert("USERNAME:admin \nPASSWORD:admin")
-    // })
   return (
     <div>
         <div className="main">
